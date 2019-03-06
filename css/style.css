@@ -1,0 +1,88 @@
+
+/* calculator stylng */
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-image: url("../images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    position: relative;
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+    margin-left: 450px;
+    margin-top: 100px;
+    display:none;
+}
+
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0px 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: white;
+}
+
+#keyboard{
+    height: 400px;
+}
+
+.operator, .number,  .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
+.number,  .empty{
+    
+    background-image: url("../images/background2.jpg");
+}
+
+
+
+.number, .operator{
+    cursor: pointer;
+}
+
+.number:active, .operator:active{
+    font-size: 13px;
+}
+
+.number:focus, .operator:focus, .empty:focus{
+outline: 0;
+}
+
+.operator{
+    background-color: white;
+    color: black;
+}
+
+/* buttn styling */
+#button{
+background-color: black;
+color: white;
+height: 40px;
+border: 2px solid white;
+font-family: 'Didact Gothic', sans-serif;
+}
